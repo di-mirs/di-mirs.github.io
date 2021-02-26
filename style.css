@@ -4,7 +4,6 @@ border-width: 5px;
 font-family: sans-serif;
 position: relative;
 width: 800px;
-
 }
 h1, h2 {
 border-style: outset;
@@ -19,4 +18,26 @@ color: darkblue;
 text-align: left;
 letter-spacing: 1px;
 font-size: 20px;
+}
+/* unvisited link */
+a:link {
+color: darkblue;
+text-decoration-line: none;
+}
+/* visited link */
+a:visited {
+color: darkblue;
+text-decoration-line: none;
+}
+/* mouse over link */
+a:hover {
+color: blue;
+}
+/* selected link */
+a:active {
+color: darkblue;
+text-decoration-line: none;
+}
+p::first-letter {
+  color: red;
 }
